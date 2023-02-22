@@ -14,7 +14,7 @@ if (isset($_POST) && !empty($_POST)) {
       $prenom = $_POST['firstname'];
       $prenom = filter_var($prenom);
       $identifiant = $_POST['username'];
-      $pass = filter_var($pass,);
+      $pass = filter_var($pass);
       $cpass = filter_var($cpass);
 
 

@@ -67,34 +67,7 @@
 <body>
         <div id="fh5co-page">
                 <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-<<<<<<< HEAD
                 <?php include "./partials/aside.php" ?>
-=======
-                <aside id="fh5co-aside" role="complementary" class="border js-fullheight">
-
-                        <h1 id="fh5co-logo"><a href="index.php">Marble</a></h1>
-                        <nav id="fh5co-main-menu" role="navigation">
-                                <ul>
-                                        <li class="fh5co-active"><a href="index.php">Home</a></li>
-                                        <li><a href="blog.php">Blog</a></li>
-                                        <li><a href="about.php">About</a></li>
-                                        <li><a href="contact.php">Contact</a></li>
-                                        <li><a href="login.php">Connexion</a></li>
-                                </ul>
-                        </nav>
-
-                        <div class="fh5co-footer">
-                                <ul>
-                                        <li><a href="#"><i class="icon-facebook2"></i></a></li>
-                                        <li><a href="#"><i class="icon-twitter2"></i></a></li>
-                                        <li><a href="#"><i class="icon-instagram"></i></a></li>
-                                        <li><a href="#"><i class="icon-linkedin2"></i></a></li>
-                                </ul>
-                        </div>
-
-                </aside>
-
->>>>>>> 7a562783d56e6edc4505e363bdbee2a2d2d54460
                 <div id="fh5co-main">
                         <aside id="fh5co-hero" class="js-fullheight">
                                 <div class="flexslider js-fullheight">
