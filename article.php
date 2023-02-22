@@ -33,24 +33,15 @@
                 </div>
         </nav>
         <section>
-                <form method="POST" action="index.php">
-                        <div class="row mb-3">
-                                <label for="inputEmail3" class="col-sm-2 col-form-label">Nom de l'article</label>
-                                <div class="col-sm-10">
-                                        <input type="text" class="form-control" id="inputEmail3" name="title">
-                                </div>
+                <div class="card">
+                        <div class="card-header">
+                                Featured
                         </div>
-                        <div class="row mb-3">
-                                <label for="inputPassword3" class="col-sm-2 col-form-label">Contenu</label>
-                                <div class="col-sm-10">
-                                        <textarea id="txtid" name="content" rows="20" class="form-control" placeholder="contenu">
-
-                                        </textarea>
-                                </div>
+                        <div class="card-body">
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                         </div>
+                </div>
 
-                        <button type="submit" class="btn btn-primary">Valider</button>
-                </form>
         </section>
 </body>
 
