@@ -42,9 +42,20 @@ session_start()
                             <form method="POST" action="index.php">
                                 <!-- 2 column grid layout with text inputs for the first and last names -->
 
-                                <!-- Email input -->
+
+                                <?php if (isset($_GET['error']) && $_GET['error'] == '404') : ?>
+                                    <div class="alert alert-danger" role="alert">
+                                        Identifiants incorrects
+                                    </div>
+                                <?php elseif (isset($_GET['error']) && $_GET['error'] == 'missing') : ?>
+                                    <div class="alert alert-danger" role="alert">
+                                        Vous devez remplir tous les champs
+                                    </div>
+                                <?php endif; ?>
+
+                                <!-- username input -->
                                 <div class="form-outline mb-4">
-                                    <input type="email" id="form3Example3" class="form-control" name="username" />
+                                    <input type="text" id="form3Example3" class="form-control" name="username" />
                                     <label class="form-label" for="form3Example3">Identifiant</label>
                                 </div>
 
@@ -55,7 +66,7 @@ session_start()
                                 </div>
 
                                 <!-- Submit button -->
-                                <input type="submit" class="btn btn-primary btn-block mb-4" value=" Connexion">
+                                <input type="submit" class="btn btn-primary btn-block mb-4" name="login" value=" Connexion">
 
 
                                 <!-- Register buttons -->
