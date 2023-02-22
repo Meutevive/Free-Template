@@ -1,3 +1,13 @@
+<?php
+session_start();
+include('database.php');
+$query = "SELECT * FROM article ORDER BY created_at";
+$sql = $pdo->prepare($query);
+$sql->execute();
+$recup = $sql->fetchAll(PDO::FETCH_ASSOC);
+?>
+
+
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -96,18 +106,30 @@
 				<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Consultez notre blog</h2>
 				<div class="row row-bottom-padded-md">
 					<div class="col-md-3 col-sm-6 col-padding animate-box" data-animate-effect="fadeInLeft">
+						
 						<div class="blog-entry">
-							<a href="#" class="blog-img"><img src="images/img-1.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by FreeHTML5.co"></a>
-							<div class="desc">
-								<h3><a href="#">Inspirational Website</a></h3>
-								<span><small>by Admin </small> / <small> Web Design </small> / <small> <i class="icon-comment"></i> 14</small></span>
-								<p>Design must be functional and functionality must be translated into visual aesthetics</p>
-								<a href="#" class="lead">Read More <i class="icon-arrow-right3"></i></a>
-							</div>
+							<?php
+							include('database.php');
+							$query = "SELECT * FROM article ORDER BY created_at";
+							$sql = $pdo->prepare($query);
+							$sql->execute();
+							$recups = $sql->fetchAll(PDO::FETCH_ASSOC);
+
+							foreach($recup as $recups){
+								echo `<div class="desc">
+								<h3>$recup[1]</h3>
+								<span>$recup[3]</span>
+								<p>$recup[2]</p>
+								</div>`;
+							}
+							?>
+							
 						</div>
 					</div>
 				</div>
 			</div>
+
+
 
 			<div id="get-in-touch">
 				<div class="fh5co-narrow-content">
