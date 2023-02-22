@@ -11,8 +11,7 @@
 	<title>Marble &mdash; Free HTML5 Bootstrap Website Template by FreeHTML5.co</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
-	<meta name="keywords"
-		content="free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
 	<meta name="author" content="FreeHTML5.co" />
 
 	<!-- 
@@ -70,20 +69,18 @@
 		<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
 		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
 
-			<h1 id="fh5co-logo"><a href="index.html">Marble</a></h1>
+			<h1 id="fh5co-logo"><a href="index.php">Marble</a></h1>
 			<nav id="fh5co-main-menu" role="navigation">
 				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="blog.html">Blog</a></li>
-					<li><a href="about.html">About</a></li>
-					<li class="fh5co-active"><a href="contact.html">Contact</a></li>
+					<li><a href="index.php">Home</a></li>
+					<li><a href="blog.phpindex.php">Blog</a></li>
+					<li><a href="about.phpindex.php">About</a></li>
+					<li class="fh5co-active"><a href="contact.phpindex.php">Contact</a></li>
 				</ul>
 			</nav>
 
 			<div class="fh5co-footer">
-				<p><small>&copy; 2016 Blend Free HTML5. All Rights Reserved.</span> <span>Designed by <a
-								href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a> </span> <span>Demo Images: <a
-								href="https://unsplash.com/" target="_blank">Unsplash</a></span></small></p>
+				<p><small>&copy; 2016 Blend Free HTML5. All Rights Reserved.</span> <span>Designed by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a> </span> <span>Demo Images: <a href="https://unsplash.com/" target="_blank">Unsplash</a></span></small></p>
 				<ul>
 					<li><a href="#"><i class="icon-facebook2"></i></a></li>
 					<li><a href="#"><i class="icon-twitter2"></i></a></li>
@@ -155,8 +152,7 @@
 								</div>
 								<div class="col-md-6">
 									<div class="form-group">
-										<textarea name="" id="message" cols="30" rows="7" class="form-control"
-											placeholder="Message"></textarea>
+										<textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
 									</div>
 									<div class="form-group">
 										<input type="submit" class="btn btn-primary btn-md" value="Send Message">
@@ -184,8 +180,7 @@
 	<!-- Flexslider -->
 	<script src="js/jquery.flexslider-min.js"></script>
 	<!-- Google Map -->
-	<script
-		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
 	<script src="js/google_map.js"></script>
 
 
