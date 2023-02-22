@@ -69,14 +69,13 @@
 		<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
 		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
 
-			<h1 id="fh5co-logo"><a href="index.html">Marble</a></h1>
+			<h1 id="fh5co-logo"><a href="index.php">Marble</a></h1>
 			<nav id="fh5co-main-menu" role="navigation">
 				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="blog.html">Blog</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
-					<li class="fh5co-active"><a href="about.html">About</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="index.php">Home</a></li>
+					<li><a href="blog.phpindex.php">Blog</a></li>
+					<li class="fh5co-active"><a href="about.phpindex.php">About</a></li>
+					<li><a href="contact.phpindex.php">Contact</a></li>
 				</ul>
 			</nav>
 
