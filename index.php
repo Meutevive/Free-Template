@@ -2,6 +2,7 @@
 session_start();
 require './database.php';
 
+echo 'acceuil.php';
 
 
 if (isset($_POST) && !empty($_POST)) {
@@ -13,5 +14,5 @@ if (isset($_POST) && !empty($_POST)) {
     # code...
   }
 } else {
-  header('Location: ' . $_SERVER['HTTP_REFERER'] . $_SERVER['REQUEST_URI'] . 'acceuil.php');
+  header('Location: ./acceuil.php');
 }

@@ -75,7 +75,7 @@
 					<li><a href="index.php">Home</a></li>
 					<li><a href="blog.phpindex.php">Blog</a></li>
 					<li class="fh5co-active"><a href="about.phpindex.php">About</a></li>
-					<li><a href="contact.phpindex.php">Contact</a></li>
+					<li><a href="contact.php">Contact</a></li>
 				</ul>
 			</nav>
 

@@ -65,7 +65,7 @@
 </head>
 
 <body>
-        <<<<<<< HEAD <div id="fh5co-page">
+        <div id="fh5co-page">
                 <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
                 <aside id="fh5co-aside" role="complementary" class="border js-fullheight">
 
@@ -258,22 +258,22 @@
                                 </div>
                         </div>
                 </div>
-                </div>
+        </div>
 
-                <!-- jQuery -->
-                <script src="js/jquery.min.js"></script>
-                <!-- jQuery Easing -->
-                <script src="js/jquery.easing.1.3.js"></script>
-                <!-- Bootstrap -->
-                <script src="js/bootstrap.min.js"></script>
-                <!-- Waypoints -->
-                <script src="js/jquery.waypoints.min.js"></script>
-                <!-- Flexslider -->
-                <script src="js/jquery.flexslider-min.js"></script>
+        <!-- jQuery -->
+        <script src="js/jquery.min.js"></script>
+        <!-- jQuery Easing -->
+        <script src="js/jquery.easing.1.3.js"></script>
+        <!-- Bootstrap -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Waypoints -->
+        <script src="js/jquery.waypoints.min.js"></script>
+        <!-- Flexslider -->
+        <script src="js/jquery.flexslider-min.js"></script>
 
 
-                <!-- MAIN JS -->
-                <script src="js/main.js"></script>
+        <!-- MAIN JS -->
+        <script src="js/main.js"></script>
 
 </body>
 
