@@ -34,13 +34,14 @@
         </nav>
         <section>
                 <div class="card">
-                        <h5 class="card-header">Titre blog 1</h5>
+                        <div class="card-header">
+                                Featured
+                        </div>
                         <div class="card-body">
-                                <!-- <h5 class="card-title">Special title treatment</h5> -->
-                                <p class="card-text">Description</p>
-                                <a href="#" class="btn btn-primary">Lire l'article</a>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                         </div>
                 </div>
+
         </section>
 </body>
 
