@@ -8,7 +8,7 @@
 <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Marble &mdash; Free HTML5 Bootstrap Website Template by FreeHTML5.co</title>
+        <title>Marble</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
         <meta name="keywords" content="free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
@@ -67,7 +67,34 @@
 <body>
         <div id="fh5co-page">
                 <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+<<<<<<< HEAD
                 <?php include "./partials/aside.php" ?>
+=======
+                <aside id="fh5co-aside" role="complementary" class="border js-fullheight">
+
+                        <h1 id="fh5co-logo"><a href="index.php">Marble</a></h1>
+                        <nav id="fh5co-main-menu" role="navigation">
+                                <ul>
+                                        <li class="fh5co-active"><a href="index.php">Home</a></li>
+                                        <li><a href="blog.php">Blog</a></li>
+                                        <li><a href="about.php">About</a></li>
+                                        <li><a href="contact.php">Contact</a></li>
+                                        <li><a href="login.php">Connexion</a></li>
+                                </ul>
+                        </nav>
+
+                        <div class="fh5co-footer">
+                                <ul>
+                                        <li><a href="#"><i class="icon-facebook2"></i></a></li>
+                                        <li><a href="#"><i class="icon-twitter2"></i></a></li>
+                                        <li><a href="#"><i class="icon-instagram"></i></a></li>
+                                        <li><a href="#"><i class="icon-linkedin2"></i></a></li>
+                                </ul>
+                        </div>
+
+                </aside>
+
+>>>>>>> 7a562783d56e6edc4505e363bdbee2a2d2d54460
                 <div id="fh5co-main">
                         <aside id="fh5co-hero" class="js-fullheight">
                                 <div class="flexslider js-fullheight">
@@ -78,9 +105,9 @@
                                                                 <div class="row">
                                                                         <div class="col-md-8 col-md-offset-2 text-center js-fullheight slider-text">
                                                                                 <div class="slider-text-inner">
-                                                                                        <h1>Intuitive <strong></strong> is How Give We the User New Superpowers</h1>
-                                                                                        <h2>Free html5 templates Made by <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a></h2>
-                                                                                        <p><a class="btn btn-primary btn-demo popup-vimeo" href="https://vimeo.com/channels/staffpicks/93951774"> <i class="icon-monitor"></i> Live Preview</a> <a class="btn btn-primary btn-learn">Learn More<i class="icon-arrow-right3"></i></a></p>
+                                                                                        <h1>Bienvenue sur notre blog !<strong></strong></h1>
+                                                                                        <h2>Ici,vous trouverez une mine d'informations sur une variété de sujets intéressants.</h2>
+                                                                                        <p><a class="btn btn-primary btn-learn" href="blog.php">En savoir plus<i class="icon-arrow-right3"></i></a></p>
                                                                                 </div>
                                                                         </div>
                                                                 </div>
@@ -92,9 +119,9 @@
                                                                 <div class="row">
                                                                         <div class="col-md-8 col-md-offset-2 text-center js-fullheight slider-text">
                                                                                 <div class="slider-text-inner">
-                                                                                        <h1>We are Happy to Create Newest Modern Websites</h1>
-                                                                                        <h2>Free html5 templates Made by <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a></h2>
-                                                                                        <p><a class="btn btn-primary btn-demo popup-vimeo" href="https://vimeo.com/channels/staffpicks/93951774"> <i class="icon-monitor"></i> Live Preview</a> <a class="btn btn-primary btn-learn">Learn More<i class="icon-arrow-right3"></i></a></p>
+                                                                                        <h1>Vous voulez mieux protéger votre vie privée en ligne?</h1>
+                                                                                        <h2>Notre page de blocage vous offre une solution simple et efficace pour bloquer les publicités et les trackers sur votre navigateur.</h2>
+                                                                                        <p><a class="btn btn-primary btn-learn" href="blog.php">En savoir plus<i class="icon-arrow-right3"></i></a></p>
                                                                                 </div>
                                                                         </div>
                                                                 </div>
@@ -106,9 +133,9 @@
                                                                 <div class="row">
                                                                         <div class="col-md-8 col-md-offset-2 text-center js-fullheight slider-text">
                                                                                 <div class="slider-text-inner">
-                                                                                        <h1>Download our Free HTML5 Bootstrap Template</h1>
-                                                                                        <h2>Free html5 templates Made by <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a></h2>
-                                                                                        <p><a class="btn btn-primary btn-demo popup-vimeo" href="https://vimeo.com/channels/staffpicks/93951774"> <i class="icon-monitor"></i> Live Preview</a> <a class="btn btn-primary btn-learn">Learn More<i class="icon-arrow-right3"></i></a></p>
+                                                                                        <h1>Fatigué des publicités ennuyeuses qui vous suivent partout en ligne?</h1>
+                                                                                        <h2>Notre page de blocage vous permet de naviguer en toute tranquillité, sans être suivi par les annonceurs.</h2>
+                                                                                        <p><a class="btn btn-primary btn-learn" href="blog.php">En savoir plus<i class="icon-arrow-right3"></i></a></p>
                                                                                 </div>
                                                                         </div>
                                                                 </div>
