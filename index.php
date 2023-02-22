@@ -2,6 +2,7 @@
 session_start();
 require './database.php';
 
+echo 'acceuil.php';
 
 
 if (isset($_POST) && !empty($_POST)) {
