@@ -14,9 +14,7 @@ if (isset($_POST) && !empty($_POST)) {
       $prenom = $_POST['firstname'];
       $prenom = filter_var($prenom);
       $identifiant = $_POST['username'];
-      $pass = md5($_POST['password']);
       $pass = filter_var($pass,);
-      $cpass = md5($_POST['confirm_password']);
       $cpass = filter_var($cpass);
 
 
