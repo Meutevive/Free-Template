@@ -67,6 +67,9 @@
 <body>
         <div id="fh5co-page">
                 <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+<<<<<<< HEAD
+                <?php include "./partials/aside.php" ?>
+=======
                 <aside id="fh5co-aside" role="complementary" class="border js-fullheight">
 
                         <h1 id="fh5co-logo"><a href="index.php">Marble</a></h1>
@@ -91,6 +94,7 @@
 
                 </aside>
 
+>>>>>>> 7a562783d56e6edc4505e363bdbee2a2d2d54460
                 <div id="fh5co-main">
                         <aside id="fh5co-hero" class="js-fullheight">
                                 <div class="flexslider js-fullheight">
