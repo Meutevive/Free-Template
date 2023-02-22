@@ -31,7 +31,8 @@ CREATE TABLE `article` (
   `id` int NOT NULL,
   `title` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
   `content` text COLLATE utf8mb4_general_ci NOT NULL,
-  `author` int NOT NULL
+  `author` int NOT NULL,
+  `created_at` date NOT NULL DEFAULT (CURRENT_DATE)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -44,7 +45,8 @@ CREATE TABLE `comment` (
   `id` int NOT NULL,
   `content` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
   `author` int NOT NULL,
-  `article` int NOT NULL
+  `article` int NOT NULL,
+  `created_at` date NOT NULL DEFAULT (CURRENT_DATE)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -55,6 +57,8 @@ CREATE TABLE `comment` (
 
 CREATE TABLE `user` (
   `id` int NOT NULL,
+  `firstname` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `lastname` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
   `username` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
   `password` varchar(255) COLLATE utf8mb4_general_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
@@ -100,6 +104,10 @@ ALTER TABLE `comment`
 --
 -- AUTO_INCREMENT for table `user`
 --
+
+ALTER TABLE user
+MODIFY username varchar(255) NOT NULL UNIQUE;
+
 ALTER TABLE `user`
   MODIFY `id` int NOT NULL AUTO_INCREMENT;
 COMMIT;
