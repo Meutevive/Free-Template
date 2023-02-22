@@ -1,9 +1,6 @@
 <?php
-
 session_start()
 ?>
-
-
 
 
 <!DOCTYPE html>
@@ -59,8 +56,8 @@ session_start()
 
                                 <!-- Submit button -->
                                 <input type="submit" class="btn btn-primary btn-block mb-4" value=" Connexion">
-                                   
-                                
+
+
                                 <!-- Register buttons -->
                                 <div class="text-center">
                                     <a href="register.php">Crée un compte</a>
